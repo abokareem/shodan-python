@@ -15,6 +15,9 @@ shodan download query hostname:"cfg."
 shodan convert CVE-2019-0708.json.gz  csv   تحويل الامتداد
 vuln: والثغرة
 
+
+shodan stats product:apache
+
 Properties
 
 asn
