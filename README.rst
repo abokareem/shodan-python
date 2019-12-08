@@ -1,6 +1,14 @@
 shodan download query  Mikrotik
 api :  PSKINdQe1GyxGgecYz2191H2JoS9qvgD
 
+
+shodan stats --facets ip_str,port product:apache country:US
+
+
+
+shodan download --limit 7029879 product:apache country:US
+
+
 shodan download search --fields ip_str,port,query BW HTTP Server
 
 shodan download query  broadworks
