@@ -11,11 +11,12 @@ shodan parse --fields domains,port --separator , domain.json.gz
 
 shodan download query hostname:"cfg."
 
+shodan search ip:194.177.50.24
 
 shodan convert CVE-2019-0708.json.gz  csv   تحويل الامتداد
 vuln: والثغرة
 
-
+shodan search  product:apache country:US
 shodan stats product:apache
 
 Properties
