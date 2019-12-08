@@ -11,6 +11,8 @@ shodan parse --fields domains,port --separator , domain.json.gz
 
 shodan download query hostname:"cfg."
 
+
+shodan convert CVE-2019-0708.json.gz  csv   تحويل الامتداد
 vuln: والثغرة
 
 Properties
