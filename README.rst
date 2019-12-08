@@ -1,3 +1,8 @@
+shodan download query  Mikrotik
+api :  PSKINdQe1GyxGgecYz2191H2JoS9qvgD
+
+
+
 shodan: The official Python library and CLI for Shodan
 ======================================================
 
