@@ -9,7 +9,7 @@ shodan parse --fields ip_str,port --separator , broadworks.json.gz  تحليل �
 
 shodan parse --fields domains,port --separator , domain.json.gz
 
-
+shodan download query hostname:"cfg."
 
 Properties
 
