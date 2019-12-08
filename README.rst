@@ -6,7 +6,7 @@ shodan stats --facets ip_str,port product:apache country:US
 
 
 
-shodan download --limit 7029879 product:apache country:US
+shodan download --limit -1 product:apache country:US
 
 
 shodan download search --fields ip_str,port,query BW HTTP Server
