@@ -1,6 +1,10 @@
 shodan download query  Mikrotik
 api :  PSKINdQe1GyxGgecYz2191H2JoS9qvgD
 
+shodan download search --fields ip_str,port,query BW HTTP Server
+
+shodan download query  broadworks
+shodan parse --fields ip_str,port --separator , broadworks.json.gz  تحليل ملف تم انشاءه
 
 
 shodan: The official Python library and CLI for Shodan
