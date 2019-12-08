@@ -11,6 +11,8 @@ shodan parse --fields domains,port --separator , domain.json.gz
 
 shodan download query hostname:"cfg."
 
+vuln: والثغرة
+
 Properties
 
 asn
