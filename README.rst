@@ -4,7 +4,7 @@ api :  PSKINdQe1GyxGgecYz2191H2JoS9qvgD
 
 shodan stats --facets ip_str,port product:apache country:US
 
-
+shodan parse --fields ip_str,port --separator , domain.json.gz
 
 shodan download --limit -1 product:apache country:US
 
