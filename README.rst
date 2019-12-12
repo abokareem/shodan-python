@@ -1,5 +1,13 @@
 shodan download query  Mikrotik
 api :  PSKINdQe1GyxGgecYz2191H2JoS9qvgD
+============================================
+shodan download --limit -1 product:apache country:AU
+shodan download --limit -1 product:nginx country:AU
+shodan download --limit -1 product:Microsoft-HTTPAPI country:AU
+shodan download --limit -1 product:AkamaiGHost country:AU
+shodan download --limit -1 product:httpd country:AU
+shodan download --limit -1 product:Microsoft-IIS country:AU
+==============================================
 
 
 shodan stats --facets ip_str,port product:apache country:US
