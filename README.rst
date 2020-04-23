@@ -1,5 +1,5 @@
 shodan download query  Mikrotik
-api :  PSKINdQe1GyxGgecYz2191H2JoS9qvgD
+shodan init PSKINdQe1GyxGgecYz2191H2JoS9qvgD
 ============================================
 shodan download --limit -1 product:apache country:AU
 shodan download --limit -1 product:nginx country:AU
