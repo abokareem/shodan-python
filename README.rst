@@ -1,3 +1,6 @@
+shodan download query Allworx  --limit -1
+
+
 shodan download query  Mikrotik
 shodan init PSKINdQe1GyxGgecYz2191H2JoS9qvgD
 ============================================
